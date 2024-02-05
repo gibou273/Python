@@ -11,6 +11,7 @@ players = Runners()
 is_race_on = True
 user_pick = screen.textinput(title="Which color turtle will win?", prompt="Enter: (red,orange,green,blue,indigo or violet)").lower()
 
+
 while is_race_on:
     for player in players.all_turtles:
         move_distance = random.randint(1,  10)
