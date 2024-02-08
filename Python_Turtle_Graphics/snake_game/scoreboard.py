@@ -4,7 +4,7 @@ class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
         self.score = 0
-        self.highest_score = 0
+        #self.highest_score = 0
         self.create_scoreboard()
     def create_scoreboard(self):
         self.color("white")
