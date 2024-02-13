@@ -1,5 +1,7 @@
 # What is this program about?
-This is a turtle race game, where diffent coloured turtles will race and the first 
-turtle to reach the goal wins the race. The use will picj the colour of the turtle
-to win the race and if the turtle with that colour wins the race, then the player/user
-wins or else loose
+This is a snake game where the plauer will get new point whenever
+the snake eats the food and the length of the snake increases and 
+becomes longer. Whenever the snake collides wityh its own tail or 
+any wall of the game window, then the snake is sent to a location/position
+outside the game window, where it gets destroyed and a new snake is
+created at the center of the game window and starts moving
